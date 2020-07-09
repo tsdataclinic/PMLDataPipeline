@@ -1,4 +1,4 @@
-## Plastic Detection Pipeline for costal waters
+## A plastic detection pipeline for costal waters
 
 This repo implements a workflow to detect macro-plastics in costal waters using Sentinel 2 satelite data. 
 
@@ -6,7 +6,7 @@ This repo implements a workflow to detect macro-plastics in costal waters using 
 
 This project is the result of a collaboration between [Plymouth Marine Labratory](https://www.pml.ac.uk/) and the [Data Clinic](https://dataclinic.twosigma.com/) at [Two Sigma](https://www.twosigma.com/). It implements an extended version of the model described in the paper [Finding Plastic Patches in Coastal Waters using Optical Satellite Data](https://www.nature.com/articles/s41598-020-62298-z) as an [EOLearn](https://github.com/sentinel-hub/eo-learn) pipeline.
  
-This model uses Sentinel satellite data from costal waters to detect macro-plastics floating on the ocean. The scale of these plastics is much smaller than an individual Sentinel 2 pixel(~10m) so the model makes use of multi-band spectra for detection.
+The model uses Sentinel satellite data from costal waters to detect macro-plastics floating on the ocean. The scale of these plastics is much smaller than an individual Sentinel 2 pixel(~10m) so the model makes use of multi-band spectra for detection.
  
 The original model required that an atmospheric correction be applied to the Sentinel scenes before plastic detection could occur. In this version we implement a moving average normalization algorithm
 which allows us to skip the atmospheric correction. It also makes the model more robust to variations in background water conditions. For more information please refer to this [SciPy2020 talk](https://www.youtube.com/watch?v=ylT4J6wCctQ) in which we discuss our approach in detail.
