@@ -1,0 +1,8 @@
+{
+    "minLon" : -89.017456,
+    "maxLon" : -87.902306,
+    "minLat" : 26.117153,
+    "maxLat" : 27.119566,
+    "timeRange": ["2019-10-19","2019-10-21"],
+    "outputDir" : "data/Gulf/"
+}

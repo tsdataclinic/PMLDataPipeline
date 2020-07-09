@@ -1,0 +1,8 @@
+{
+    "minLon" : -0.301972,
+    "maxLon" : 0.69866,
+    "minLat" : 5.3241,
+    "maxLat" : 6.33057,
+    "timeRange": ["2018-10-30","2018-11-01"],
+    "outputDir" : "data/Ghana/"
+}

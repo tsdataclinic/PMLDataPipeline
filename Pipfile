@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+jupyterlab = "*"
+eo-learn = "*"
+geopandas = "*"
+sentinelhub = "*"
+overpass = "*"
+netcdf4 = "*"
+contextily = "*"
+cartopy = "*"
+xlrd = "*"
+rtree = "*"
+sphinx = "*"
+
+[requires]
+python_version = "3.8"
