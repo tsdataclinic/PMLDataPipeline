@@ -21,7 +21,7 @@ from datetime import datetime
 import argparse
 import json
 
-if __name__ ==="__main__":
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Script to download a given region and process it in to EOPatches')
     parser.add_argument('--scene',  type=str, help='Scene specificaiton file')
     args = parser.parse_args()
