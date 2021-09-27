@@ -16,7 +16,7 @@
 
 '''
 
-from plasticfinder.Workflows import download_region
+from plasticfinder.workflows import download_region
 from datetime import datetime
 import argparse
 import json
