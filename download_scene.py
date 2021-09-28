@@ -32,8 +32,8 @@ if __name__ == "__main__":
         raise Exception("Could not read scene file")
     
     timeRange = [
-        datetime.strptime(scene['dateRange'][0], "%Y-%m-%d"),
-        datetime.strptime(scene['dateRange'][0], "%Y-%m-%d")
+        datetime.strptime(scene['timeRange'][0], "%Y-%m-%d"),
+        datetime.strptime(scene['timeRange'][1], "%Y-%m-%d")
     ]
 
     download_region(scene['outputDir'],scene['minLon'],scene['minLat'],scene['maxLon'],scene['maxLat'],timeRange)
