@@ -108,7 +108,7 @@ This defines the region in space, the time range over which we wish to look for 
 Then we can simply run the following script:
  
 ```bash
-python download_scene.py --scene=scenes/Gulf.json
+python download_scene.py --scene=scenes/ghana.json
 ```
  
 This will take a while but when it is done you should have a cached version of all the data we will need as a series of EOPatches. These patches contain the following data:
