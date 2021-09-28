@@ -16,12 +16,12 @@
 
 '''
 
-from plasticfinder.Workflows import download_region
+from plasticfinder.workflows import download_region
 from datetime import datetime
 import argparse
 import json
 
-if __name__ ==="__main__":
+if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Script to download a given region and process it in to EOPatches')
     parser.add_argument('--scene',  type=str, help='Scene specificaiton file')
     args = parser.parse_args()
@@ -32,8 +32,8 @@ if __name__ ==="__main__":
         raise Exception("Could not read scene file")
     
     timeRange = [
-        datetime.strptime(scene['dateRange'][0], "%Y-%m-%d"),
-        datetime.strptime(scene['dateRange'][0], "%Y-%m-%d")
+        datetime.strptime(scene['timeRange'][0], "%Y-%m-%d"),
+        datetime.strptime(scene['timeRange'][1], "%Y-%m-%d")
     ]
 
     download_region(scene['outputDir'],scene['minLon'],scene['minLat'],scene['maxLon'],scene['maxLat'],timeRange)
