@@ -1,7 +1,7 @@
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import plot_confusion_matrix
 from sklearn.naive_bayes import GaussianNB 
-from matplotlib import pylab
+#from matplotlib import pylab
 import pandas as pd
 import argparse
 from eolearn.core import LoadTask
