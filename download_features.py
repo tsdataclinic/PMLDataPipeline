@@ -16,7 +16,7 @@
 '''
 
 import pandas as pd 
-import geopanads as gp
+import geopandas as gp
 import argparse
 from plasticfinder.tasks.combined_masks import CombineMask
 from plasticfinder.tasks.cloud_classifier import cloud_classifier_task

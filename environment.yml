@@ -1,0 +1,14 @@
+name: pml
+channels:
+  - conda-forge
+dependencies:
+  - eo-learn-core
+  - eo-learn-features
+  - eo-learn-io
+  - eo-learn-mask
+  - geopandas
+  - matplotlib
+  - python=3.9
+  - scikit-learn
+  - scikit-image
+  - sentinelhub
