@@ -1,3 +1,5 @@
+**This project is no longer maintained by Two Sigma. We continue to encourage independent development.**
+
 ## A plastic detection pipeline for coastal waters
 
 This repo implements a workflow to detect macro-plastics in coastal waters using Sentinel 2 satellite data. 
